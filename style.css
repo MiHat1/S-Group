@@ -1,0 +1,14 @@
+h1 {
+    color: yellow;
+    padding: 0 10px;
+    margin: auto auto;
+    max-width: 650px;
+}
+
+* {
+      font-family: "Montserrat", sans-serif;
+}
+
+.maudo {
+    color: red;
+}
