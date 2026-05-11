@@ -1,0 +1,108 @@
+body {
+    font-family: 'Inter' , sans-serif;  
+    margin :0;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+.ds-header {
+    background-color: white;
+    padding: 70px 0px;
+
+}
+.container { 
+    width: 1300px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.ds-header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ds-logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px ;
+}
+.ds-logo span {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 24px; 
+    border-radius: 4px ;
+    width: 40px;
+    height: 40px;
+}
+.ds-social {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.ds-social li {
+    font-size: 24px;
+}
+.row { 
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.ds-banner-img { 
+    display: block;
+    margin-right: 70px;
+}
+.ds-number {
+  display: flex;         
+  gap: 50px;            
+  list-style: none;
+  padding: 0;
+}
+.ds-number li strong{
+  display: block;
+  font-size: 30px;
+  color: #ee6a65;
+  margin-bottom: 5px;
+}
+.ds-number li span {
+    font-size: 14px;
+}
+.ds-heading { 
+    margin : 30 0;
+    font-size: 20px ;
+    display: inline-block;
+    border-bottom: 3px solid salmon;
+}
+p{ 
+    font-size: 24px;
+}
+.ds-button-sec{
+    display: inline-block;
+    text-align: center;
+    padding: 17px 30px;
+    border-radius: 60px ;
+    border: 2px solid salmon;
+    margin-bottom: 30px;
+    color: salmon;
+}
+.ds-skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;   
+  flex-wrap: wrap;    
+  gap: 12px;         
+}
+.ds-skills-list li {
+  padding: 8px 20px;
+  border: 1px solid #ddd;
+  border-radius: 50px; 
+  color: #333;
+  font-size: 0.95rem;
+  background-color: #fff;
+}
+.right-col , .left-col {
+    flex :1 ;
+}
