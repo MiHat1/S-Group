@@ -106,3 +106,40 @@ p{
 .right-col , .left-col {
     flex :1 ;
 }
+.ds-year {
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-bottom: 7px;
+}
+.ds-officename {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 5px 0;
+    color: #666;
+}
+p {
+    font-size: 24px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.ds-experience-list li {
+    padding-left: 25px;
+    margin-bottom: 15px;
+    color: #666;
+}
+h3 { 
+    font-size: 30px;
+}
+.ds-work-list {
+    background-color: lch(93.65% 5.12 253.12); 
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.ds-footer {
+    background-color: black;
+    color: white;
+    padding:120px 0 ;
+    text-align: center;
+}
