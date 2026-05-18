@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.effect-lily{
+    position:relative;
+    width:600px;
+    height:400px;
+    margin-bottom: 40px;
+}
+
+
+.effect-lily img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    opacity:0.8;
+    transition:all 0.35s;
+}
+
+.effect-lily div{
+    position:absolute;
+    left:40px;
+    bottom:40px;
+    color:white;
+}
+
+.effect-lily h2, .effect-lily p{
+    transition:all 0.35s;
+}
+
+
+.effect-lily p{
+    opacity:0;
+}
+
+.effect-lily:hover img{
+    opacity:1;
+}
+
+.effect-lily:hover h2, .effect-lily:hover p{
+    transform:translateY(-40px);
+}
+
+.effect-lily:hover p{
+    opacity:1;
+}
+
+/* effect-julia */
+
+.effect-julia {
+    position: relative;
+    width:  600px;
+    height: 400px;
+}
+.effect-julia img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: all 0.35s; 
+}
+.effect-julia:hover img {
+    opacity: 0.4;
+}
