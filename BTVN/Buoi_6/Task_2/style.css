@@ -1,70 +1,129 @@
-body{
-    margin:0;
+body {
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.effect-lily{
-    position:relative;
-    width:600px;
-    height:400px;
-    margin-bottom: 40px;
-}
-
-
-.effect-lily img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    opacity:0.8;
-    transition:all 0.35s;
-}
-
-.effect-lily div{
-    position:absolute;
-    left:40px;
-    bottom:40px;
-    color:white;
-}
-
-.effect-lily h2, .effect-lily p{
-    transition:all 0.35s;
+.effect-lily {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 40px;
 }
 
 
-.effect-lily p{
-    opacity:0;
+.effect-lily img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: all 0.35s;
 }
 
-.effect-lily:hover img{
-    opacity:1;
+.effect-lily div {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    color: white;
 }
 
-.effect-lily:hover h2, .effect-lily:hover p{
-    transform:translateY(-40px);
+.effect-lily h2,
+.effect-lily p {
+    transition: all 0.35s;
 }
 
-.effect-lily:hover p{
-    opacity:1;
+.effect-lily p {
+    opacity: 0;
+}
+
+.effect-lily:hover img {
+    opacity: 1;
+}
+
+.effect-lily:hover h2,
+.effect-lily:hover p {
+    transform: translateY(-40px);
+}
+
+.effect-lily:hover p {
+    opacity: 1;
 }
 
 /* effect-julia */
 
 .effect-julia {
     position: relative;
-    width:  600px;
+    width: 600px;
     height: 400px;
 }
+
 .effect-julia img {
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: 0.8;
-    transition: all 0.35s; 
+    transition: all 0.35s;
 }
+
 .effect-julia:hover img {
     opacity: 0.4;
+}
+
+.effect-julia div {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px;
+}
+
+.effect-julia p {
+    display: inline-block;
+    color: black;
+    background: white;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+    opacity: 0;
+    transform: translate3d(-360px, 0px, 0px);
+    transition: all 0.35s;
+}
+
+#p1 {
+    transition-delay: 0.15s;
+}
+
+#p2 {
+    transition-delay: 0.1s;
+}
+
+#p3 {
+    transition-delay: 0s;
+}
+
+.effect-julia:hover p {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+#p1 {
+    transition-delay: 0s;
+}
+
+#p2 {
+    transition-delay: 0.1s;
+}
+
+#p3 {
+    transition-delay: 0.15s;
+}
+
+#d1 {
+    margin-top: 50px;
+}
+#d { 
+    width: 400px;
 }
